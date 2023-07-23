@@ -1,10 +1,10 @@
 import React, { useState, useEffect, useRef } from "react";
 
 interface ScrambleAnimationProps {
-  texts: string[];
-  speed: number;
-  pauseDuration: number;
-  start: boolean;
+  texts?: string[];
+  speed?: number;
+  pauseDuration?: number;
+  start?: boolean;
   style?: React.CSSProperties; // optional style prop
   className?: string; // optional className prop
 }
