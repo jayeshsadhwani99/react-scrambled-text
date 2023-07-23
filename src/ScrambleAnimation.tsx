@@ -14,12 +14,12 @@ const getRandomChar = () => {
 };
 
 const ScrambleAnimation: React.FC<ScrambleAnimationProps> = ({
-  texts,
-  speed,
-  pauseDuration,
-  start,
-  style,
-  className,
+  texts = ["Hello, World!"],
+  speed = 100,
+  pauseDuration = 3000,
+  start = true,
+  style = {},
+  className = "",
 }) => {
   const [scrambledText, setScrambledText] = useState(texts[0]);
   const textIndex = useRef(0);
