@@ -1,6 +1,6 @@
 {
   "name": "react-scrambled-text",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "homepage": "https://github.com/jayeshsadhwani99/react-scrambled-text",
   "description": "A package to create the scrambled text animation easily",
   "main": "dist/ScrambleAnimation.js",
