@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 
-interface ScrambleAnimationProps {
+export interface ScrambleAnimationProps {
   texts?: string[];
   speed?: number;
   pauseDuration?: number;

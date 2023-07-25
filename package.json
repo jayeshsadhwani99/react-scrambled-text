@@ -1,13 +1,15 @@
 {
   "name": "react-scrambled-text",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://github.com/jayeshsadhwani99/react-scrambled-text",
   "description": "A package to create the scrambled text animation easily",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "keywords": [],
   "author": "Jayesh",
@@ -18,7 +20,16 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@storybook/addon-essentials": "^7.1.1",
+    "@storybook/addon-interactions": "^7.1.1",
+    "@storybook/addon-links": "^7.1.1",
+    "@storybook/addon-onboarding": "^1.0.8",
+    "@storybook/blocks": "^7.1.1",
+    "@storybook/react": "^7.1.1",
+    "@storybook/react-vite": "^7.1.1",
+    "@storybook/testing-library": "^0.2.0",
     "@types/react": "^18.2.15",
+    "storybook": "^7.1.1",
     "typescript": "^5.1.6"
   },
   "peerDependencies": {

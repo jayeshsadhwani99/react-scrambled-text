@@ -1,5 +1,7 @@
 ## React Scrambled Text
 
+![demo gif](https://lh3.googleusercontent.com/u/0/drive-viewer/AITFw-yW_DcXe2pFAlmoOQWHYEPdJOO34eM8ykTcsizD_0E6MgF9CdfghxA4guSw1OJ9SqRdfMg04pV-KRLCsrcrZixjjov8Ew=w2880-h1586)
+
 This is a package to create scrambled text animation in react easily. A lightweight package which you just install once and are ready to go
 
 ## How to install
