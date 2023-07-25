@@ -6,7 +6,8 @@
   "main": "dist/ScrambleAnimation.js",
   "types": "dist/ScrambleAnimation.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
   },
   "keywords": [],
   "author": "Jayesh",
